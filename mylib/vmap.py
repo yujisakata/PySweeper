@@ -9,7 +9,7 @@ class Vmap:
         self.to_be_opened = self.x * self.y - self.bn
         self.n_flag = n
         self.create_wall(-1)
-
+ 
     def set_opened(self, x, y):
         self.to_be_opened -= 1
         self.mmap[x][y] = 2

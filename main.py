@@ -3,7 +3,7 @@ import tkinter as tk
 import pygame
 from mylib.bmap import Bmap
 from mylib.vmap import Vmap
-from  mylib.imgSelector import TileImage
+from mylib.imgSelector import TileImage
 
 TILE = 55
 HEADER_HEIGHT = 28
